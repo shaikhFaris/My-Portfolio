@@ -55,18 +55,6 @@ function Contact() {
         return data;
       });
     console.log("status: " + ResFromServer.status);
-    // emailjs
-    //   .sendForm("service_mkpynje", "template_jhxy5sc", form.current, {
-    //     publicKey: "hqEaOR_VM919Ipdux",
-    //   })
-    //   .then(
-    //     () => {
-    //       console.log("SUCCESS!");
-    //     },
-    //     (error) => {
-    //       console.log("FAILED...", error.text);
-    //     }
-    //   );
   };
 
   return (

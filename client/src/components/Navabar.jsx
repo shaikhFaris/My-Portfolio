@@ -29,7 +29,7 @@ function Navabar() {
     <div>
       <div className=" flex justify-between items-center px-4 my-5 w-full xl:flex xl:justify-between xl:my-0 xl:px-10 xl:py-3 xl:mt-3 2xl:mt-10">
         <div className=" w-[80%] flex py-3 gap-2 justify-start items-center xl:text-center xl:flex  xl:gap-3 xl:w-1/3 xl:justify-center xl:py-0 ">
-          <img src={logo} alt="nothing" className="w-10 xl:w-10" />
+          <img src={logo} alt="nothing" className="w-8 xl:w-6" />
           <h3 className="font-semibold text-xl 2xl:text-4xl">
             Devloper | Faris
           </h3>
