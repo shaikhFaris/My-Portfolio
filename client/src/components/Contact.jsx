@@ -34,27 +34,28 @@ function Contact() {
     e.preventDefault();
     // console.log("Form submitted!");
     console.log(userObj);
-    let ResFromServer = await fetch("http://192.168.1.101:3689/mail", {
-      method: "POST",
-      headers: {
-        "Content-type": "application/json; charset=UTF-8",
-      },
-      //We need to convert js object into JSON string to pass over
-      body: JSON.stringify({
-        username: userObj.username,
-        email: userObj.email,
-        message: userObj.msg,
-      }),
-    })
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        console.log("from server: ");
-        console.log(data);
-        return data;
-      });
-    console.log("status: " + ResFromServer.status);
+    console.log("Work in progress");
+    // let ResFromServer = await fetch("http://192.168.1.101:3689/mail", {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-type": "application/json; charset=UTF-8",
+    //   },
+    //   //We need to convert js object into JSON string to pass over
+    //   body: JSON.stringify({
+    //     username: userObj.username,
+    //     email: userObj.email,
+    //     message: userObj.msg,
+    //   }),
+    // })
+    //   .then((response) => {
+    //     return response.json();
+    //   })
+    //   .then((data) => {
+    //     console.log("from server: ");
+    //     console.log(data);
+    //     return data;
+    //   });
+    // console.log("status: " + ResFromServer.status);
   };
 
   return (
