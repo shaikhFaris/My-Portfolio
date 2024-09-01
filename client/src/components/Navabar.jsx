@@ -27,17 +27,17 @@ function Navabar() {
 
   return (
     <div>
-      <div className=" flex justify-between items-center px-4 my-5 w-full xl:flex xl:justify-between xl:my-0 xl:px-10 xl:py-3 xl:mt-3 2xl:mt-10">
+      <div className=" flex justify-between items-center px-4 my-5 w-full xl:flex xl:justify-between xl:my-0 xl:px-10 xl:py-3 xl:mt-3 2xl:mt-5">
         <div className=" w-[80%] flex py-3 gap-2 justify-start items-center xl:text-center xl:flex  xl:gap-3 xl:w-1/3 xl:justify-center xl:py-0 ">
           <img src={logo} alt="nothing" className="w-8 xl:w-6" />
-          <h3 className="font-semibold text-xl 2xl:text-4xl">
+          <h3 className="font-semibold text-xl 2xl:text-2xl">
             Devloper | Faris
           </h3>
         </div>
         <div className="hidden lg:font-normal lg:w-5/12 lg:flex lg:text-gray-500 ">
           <ul className="lg:flex lg:justify-evenly lg:text-center lg:items-center lg:w-full">
             <li
-              className="lg:hover:text-white lg:ease-in lg:duration-100 cursor-pointer 2xl:text-4xl"
+              className="lg:hover:text-white lg:ease-in lg:duration-100 cursor-pointer 2xl:text-xl"
               onClick={() => {
                 expEl?.scrollIntoView({
                   behavior: "smooth",
@@ -47,7 +47,7 @@ function Navabar() {
               Experience
             </li>
             <li
-              className="lg:hover:text-white lg:ease-in lg:duration-100 cursor-pointer 2xl:text-4xl"
+              className="lg:hover:text-white lg:ease-in lg:duration-100 cursor-pointer 2xl:text-xl"
               onClick={() => {
                 skillEl?.scrollIntoView({
                   behavior: "smooth",
@@ -57,7 +57,7 @@ function Navabar() {
               Skills
             </li>
             <li
-              className="hover:text-white lg:ease-in lg:duration-100 cursor-pointer 2xl:text-4xl"
+              className="hover:text-white lg:ease-in lg:duration-100 cursor-pointer 2xl:text-xl"
               onClick={() => {
                 contactEl?.scrollIntoView({
                   behavior: "smooth",

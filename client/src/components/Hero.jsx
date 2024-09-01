@@ -159,24 +159,24 @@ function Hero() {
   return (
     <div className=" block custom-vh-class md:flex md:justify-center xl:flex my-3 xl:my-0 ">
       <div className="hero-content  w-full my-5 mt-20 md:mt-14 md:w-2/5 xl:mt-20 xl:mb-0 xl:w-2/5 xl:h-full xl:ml-28 xl:mt-22 ">
-        <h1 className="text-4xl mx-3 mt-5 text-left font-extrabold  md:text-4xl xl:text-6xl xl:mb-9 2xl:text-9xl 2xl:mt-48">
+        <h1 className="text-4xl mx-3 mt-5 text-left font-extrabold  md:text-4xl xl:text-6xl xl:mb-9 2xl:text-7xl 2xl:mt-24 2xl:mb-5">
           Hi, I am <span className="text-purple-400">Faris </span>
         </h1>
-        <p className="mx-4 my-2 text-xl xl:text-3xl 2xl:text-6xl 2xl:my-12">
+        <p className="mx-4 my-2 text-xl xl:text-3xl 2xl:text-4xl 2xl:my-3 2xl:leading-normal">
           I am a <span className=" text-purple-700 ">{text}</span>
           <Cursor />
         </p>
-        <p className="mx-4 my-2 text-xs font-light md:text-base xl:text-lg xl:my-5 text-gray-500 2xl:text-4xl 2xl:font-normal">
+        <p className="mx-4 my-2 text-xs font-light md:text-base xl:text-lg xl:my-5 text-gray-500 2xl:text-[23px] 2xl:font-light 2xl:text-gray-600 2xl:leading-[32px] 2xl:my-0">
           I'm a web developer proficient in the MERN stack and passionate about
           creating immersive 3D animations using three.js. I specialize in
           building responsive, visually appealing web applications with Tailwind
           CSS. Let's create something amazing together!
         </p>
-        <div className="flex justify-center gap-5 mt-5 xl:gap-10 xl:mt-10 2xl:hidden">
+        <div className="flex justify-center gap-5 mt-5 xl:gap-10 xl:mt-10 2xl:gap-14">
           <a href="https://x.com/faris_shaikh247" target="_blank">
             <FaXTwitter
               size={25}
-              className="text-gray-500 hover:text-white ease-in duration-100"
+              className="text-gray-500 hover:text-white ease-in duration-100 "
             />
           </a>
           <a
