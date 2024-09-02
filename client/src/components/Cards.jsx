@@ -39,13 +39,13 @@ function Cards() {
           <div className="border border-purple-700 rounded-2xl h-full w-full">
             <FaReact size={60} className="mx-auto mt-4 " />
             <div className="mx-2 my-2 ">
-              <h3 className="my-2 text-xl text-center text-green-500 ">
+              <h3 className="my-2 text-xl text-center text-green-500 2xl:mb-4">
                 React
               </h3>
               <p className="xl:font-normal text-xs xl:text-sm font-light text-center text-gray-400 ">
-                Docker is a platform for developing, shipping, and running
-                applications in isolated containers, ensuring consistency across
-                environments.
+                React is a JavaScript library for building dynamic user
+                interfaces with reusable components. It uses a virtual DOM for
+                efficient rendering.
               </p>
             </div>
           </div>
@@ -55,13 +55,13 @@ function Cards() {
           <div className="border border-purple-700 rounded-2xl h-full w-full ">
             <RiTailwindCssFill size={60} className="mx-auto mt-4 " />
             <div className="mx-2 my-2 ">
-              <h3 className="my-2 text-xl text-center text-green-500 ">
+              <h3 className="my-2 text-xl text-center text-green-500 2xl:mb-4">
                 Tailwind
               </h3>
               <p className="xl:font-normal text-xs xl:text-sm font-light text-center text-gray-400 ">
-                Kubernetes is an open-source platform for automating the
-                deployment, scaling, and management of containerized
-                applications.
+                Tailwind CSS is a utility-first framework that allows for rapid
+                UI development by providing pre-defined classes. It enables
+                custom styling without writing CSS from scratch.
               </p>
             </div>
           </div>
@@ -71,13 +71,13 @@ function Cards() {
           <div className="border border-purple-700 rounded-2xl h-full w-full ">
             <TbBrandThreejs size={60} className="mx-auto mt-4 " />
             <div className="mx-2 my-2 ">
-              <h3 className="my-2 text-xl text-center text-green-500 ">
+              <h3 className="my-2 text-xl text-center text-green-500 2xl:mb-4">
                 Three JS
               </h3>
               <p className="xl:font-normal text-xs xl:text-sm font-light text-center text-gray-400 ">
-                Helm charts are packages that simplify the deployment and
-                management of Kubernetes applications by defining and
-                configuring resources.
+                Three.js is a JavaScript library for creating 3D graphics in the
+                browser using WebGL, ideal for interactive visualizations and
+                animations.
               </p>
             </div>
           </div>
@@ -87,13 +87,13 @@ function Cards() {
           <div className="border border-purple-700 rounded-2xl h-full w-full ">
             <SiMongodb size={60} className="mx-auto mt-4 " />
             <div className="mx-2 my-2 ">
-              <h3 className="my-2 text-xl text-center text-green-500 ">
+              <h3 className="my-2 text-xl text-center text-green-500 2xl:mb-4">
                 MongoDB
               </h3>
               <p className="xl:font-normal text-xs xl:text-sm font-light text-center text-gray-400 ">
-                Linux is favored for its stability, security, and flexibility,
-                making it ideal for managing servers, deploying applications,
-                and automating workflows.
+                MongoDB is a NoSQL database that stores data in flexible,
+                JSON-like documents. It’s designed for scalability and high
+                performance.
               </p>
             </div>
           </div>
@@ -103,12 +103,13 @@ function Cards() {
           <div className="border border-purple-700 rounded-2xl h-full w-full ">
             <SiExpress size={60} className="mx-auto mt-4 " />
             <div className="mx-2 my-2 ">
-              <h3 className="my-2 text-xl text-center text-green-500 ">
+              <h3 className="my-2 text-xl text-center text-green-500 2xl:mb-4">
                 Express
               </h3>
               <p className="xl:font-normal text-xs xl:text-sm font-light text-center text-gray-400 ">
-                Azure is Microsoft's cloud computing platform offering a wide
-                range of services, including storage, computing, and networking.
+                Express is a minimalist Node.js web framework for building fast
+                APIs and web applications. It simplifies server-side routing and
+                middleware management.
               </p>
             </div>
           </div>
@@ -117,11 +118,13 @@ function Cards() {
           <div className="border border-purple-700 rounded-2xl h-full w-full ">
             <FaNode size={60} className="mx-auto mt-4 " />
             <div className="mx-2 my-2 ">
-              <h3 className="my-2 text-xl text-center text-green-500 ">Node</h3>
+              <h3 className="my-2 text-xl text-center text-green-500 2xl:mb-4">
+                Node
+              </h3>
               <p className="xl:font-normal text-xs xl:text-sm font-light text-center text-gray-400 ">
-                AWS (Amazon Web Services) is a comprehensive cloud platform
-                offering a variety of services, such as computing power,
-                storage, and databases.
+                Node.js is a runtime for running JavaScript on the server,
+                enabling full-stack development with a single language and
+                supporting scalable applications.
               </p>
             </div>
           </div>
@@ -131,7 +134,7 @@ function Cards() {
           <div className="border border-purple-700 rounded-2xl h-full w-full ">
             <AiOutlineMail size={60} className="mx-auto mt-4 " />
             <div className="mx-2 my-2 ">
-              <h3 className="my-2 text-xl text-center text-green-500 ">
+              <h3 className="my-2 text-xl text-center text-green-500 2xl:mb-4">
                 Email JS
               </h3>
               <p className="xl:font-normal text-xs xl:text-sm font-light text-center text-gray-400 ">
@@ -147,13 +150,13 @@ function Cards() {
           <div className="border border-purple-700 rounded-2xl h-full w-full ">
             <SiJavascript size={50} className="mx-auto mt-4 " />
             <div className="mx-2 my-2 ">
-              <h3 className="my-2 text-xl text-center text-green-500 ">
+              <h3 className="my-2 text-xl text-center text-green-500 2xl:mb-4">
                 Javascript
               </h3>
               <p className="xl:font-normal text-xs xl:text-sm font-light text-center text-gray-400 ">
-                Terraform is an open-source tool for automating infrastructure
-                setup and management. It uses code to define and provision
-                resources across various cloud providers.
+                JavaScript is a versatile scripting language for adding
+                interactivity and dynamic content to web pages. It's essential
+                for front-end and back-end development.
               </p>
             </div>
           </div>
@@ -164,11 +167,13 @@ function Cards() {
           <div className="border border-purple-700 rounded-2xl h-full w-full ">
             <FaCss3Alt size={60} className="mx-auto mt-4 " />
             <div className="mx-2 my-2 ">
-              <h3 className="my-2 text-xl text-center text-green-500 ">CSS</h3>
+              <h3 className="my-2 text-xl text-center text-green-500 2xl:mb-4">
+                CSS
+              </h3>
               <p className="xl:font-normal text-xs xl:text-sm font-light text-center text-gray-400 ">
-                Cisco ASA (Adaptive Security Appliance) is a security device
-                that combines firewall, VPN, and intrusion prevention features.
-                It protects networks using security policies.
+                CSS (Cascading Style Sheets) styles and layouts web pages,
+                controlling design aspects like color, spacing, and typography.
+                It separates content from presentation.
               </p>
             </div>
           </div>
