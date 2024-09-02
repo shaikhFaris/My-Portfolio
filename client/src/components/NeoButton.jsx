@@ -10,7 +10,7 @@ function NeoButton() {
   return (
     <div>
       <button
-        className="neo-btn w-2/3 h-14  mx-auto xl:mx-0 xl:my-10 xl:w-60 xl:h-[68px] xl:mb-16 2xl:h-[7rem] 2xl:w-[26rem] 2xl:text-4xl"
+        className="neo-btn w-2/3 h-14  mx-auto xl:mx-0 xl:my-10 xl:w-60 xl:h-[68px] xl:mb-16 2xl:h-[5rem] 2xl:w-[18rem] 2xl:text-xl"
         onClick={handleResumeCLick}
       >
         Resume

@@ -4,27 +4,10 @@ import { AiOutlineKubernetes } from "react-icons/ai";
 import { FaLinux, FaDocker } from "react-icons/fa6";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb, SiExpress, SiJavascript } from "react-icons/si";
-import { PiNetworkThin } from "react-icons/pi";
 import { TbBrandThreejs } from "react-icons/tb";
 import { FaReact } from "react-icons/fa6";
-import { PiNetworkLight, PiNotionLogoFill } from "react-icons/pi";
-import { IoInfiniteSharp } from "react-icons/io5";
-import { TbLoadBalancer } from "react-icons/tb";
-import { CiCloudOn } from "react-icons/ci";
-import { VscCoverage } from "react-icons/vsc";
-import { SiMicrosoftazure, SiAzurepipelines } from "react-icons/si";
-import { TbBrandTerraform } from "react-icons/tb";
-import { GiGaulsHelm } from "react-icons/gi";
-import { SiCisco } from "react-icons/si";
+
 import { FaNode, FaCss3Alt } from "react-icons/fa";
-import {
-  SiJunipernetworks,
-  SiSonar,
-  SiJfrog,
-  SiGnubash,
-  SiSplunk,
-  SiNewrelic,
-} from "react-icons/si";
 
 function Cards() {
   return (
@@ -187,7 +170,6 @@ function Cards() {
                 that combines firewall, VPN, and intrusion prevention features.
                 It protects networks using security policies.
               </p>
-              jekssknskkldhsfs
             </div>
           </div>
         </div>
