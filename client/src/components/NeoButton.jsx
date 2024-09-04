@@ -1,5 +1,5 @@
 import React from "react";
-import resumPDF from "../../public/resume.pdf";
+import resumPDF from "/resume.pdf";
 
 const handleResumeCLick = () => {
   // console.log("clicked");

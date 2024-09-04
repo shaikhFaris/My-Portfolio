@@ -24,7 +24,7 @@ function SkillsDetails() {
       <p className="text-xs text-center text-gray-500 mt-10 xl:text-left xl:mt-5 xl:text-base 2xl:text-lg">
         Feel free to
         <a
-          href="https://tailwindcss.com/docs/border-width"
+          href="https://www.linkedin.com/in/shaikh-mohammad-faris-561550295/"
           target="_blank"
           className="text-cyan-400"
         >
