@@ -18,6 +18,10 @@ function Navabar() {
   const [menu, setMenu] = useState(false);
   const menuRef = useRef();
   useEffect(() => {
+    skillEl = document.body.querySelector("#skills-section");
+    expEl = document.body.querySelector("#experience-section");
+    contactEl = document.body.querySelector("#contact-section");
+    // console.log(menu);
     if (menu === true) {
       menuRef.current.style.display = "flex";
     } else {
@@ -89,9 +93,29 @@ function Navabar() {
           onClick={() => setMenu(false)}
         />
         <h2 className="bg-transparent text-2xl">Home</h2>
-        <h2 className="bg-transparent text-2xl">Skills</h2>
-        <h2 className="bg-transparent text-2xl">Experience</h2>
-        <h2 className="bg-transparent text-2xl">Contact me</h2>
+        <h2
+          className="bg-transparent text-2xl"
+          onClick={() => {
+            skillEl?.scrollIntoView({
+              behavior: "smooth",
+            });
+            setMenu(false);
+          }}
+        >
+          Skills
+        </h2>
+        {/* <h2 className="bg-transparent text-2xl">Experience</h2> */}
+        <h2
+          className="bg-transparent text-2xl"
+          onClick={() => {
+            contactEl?.scrollIntoView({
+              behavior: "smooth",
+            });
+            setMenu(false);
+          }}
+        >
+          Contact me
+        </h2>
       </div>
     </div>
   );
